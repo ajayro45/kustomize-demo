@@ -1,0 +1,18 @@
+namePrefix: tst-
+bases:
+  - ../../base
+components:
+  - ../../components
+namespace: tst
+
+commonLabels:
+  feature: api
+
+patches:
+ - target:
+    kind: Deployment
+    name: my-app
+   patch: |-
+      - op: replace
+        path: /spec/replicas
+        value: 1                 
