@@ -18,7 +18,7 @@ spec:
         app: logging
     spec:
       containers:
-      - image: busybox:latest
+      - image: nginx:1.19
         name: logger
         resources: {}
 status: {}
