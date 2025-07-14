@@ -18,7 +18,7 @@ spec:
         app: logging
     spec:
       containers:
-      - image: haproxy:latest
+      - image: busybox:latest
         name: logger
         resources: {}
 status: {}
