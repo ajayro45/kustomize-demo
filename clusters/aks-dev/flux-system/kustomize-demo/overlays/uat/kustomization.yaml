@@ -1,5 +1,5 @@
 namePrefix: uat-
-bases:
+resources:
   - ../../base
 
 namespace: uat
