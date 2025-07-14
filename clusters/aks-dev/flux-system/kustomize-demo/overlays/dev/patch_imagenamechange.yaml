@@ -1,8 +1,0 @@
-# patch-ajay.yaml
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: ajay
-spec:
-  replicas: 5
-
