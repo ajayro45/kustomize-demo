@@ -18,7 +18,7 @@ spec:
         app: logging
     spec:
       containers:
-      - image: nginx:latest
+      - image: haproxy:latest
         name: logger
         resources: {}
 status: {}
