@@ -18,7 +18,7 @@ spec:
         app: logging
     spec:
       containers:
-      - image: logger
+      - image: nginx:latest
         name: logger
         resources: {}
 status: {}
