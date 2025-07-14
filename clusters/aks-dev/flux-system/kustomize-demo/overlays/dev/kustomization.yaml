@@ -1,5 +1,5 @@
 namePrefix: dev-
-bases:
+resources:
   - ../../base
 
 components:
