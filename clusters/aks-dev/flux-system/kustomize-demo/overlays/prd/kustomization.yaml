@@ -1,5 +1,5 @@
 namePrefix: prd-
-bases:
+resources:
   - ../../base
 
 namespace: prd
