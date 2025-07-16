@@ -6,4 +6,4 @@ resources:
 - overlays/
 - deployment.yml
 - namespace.yml
-- service.ymk
+- service.yml
