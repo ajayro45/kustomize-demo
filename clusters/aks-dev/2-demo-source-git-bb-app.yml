@@ -7,5 +7,5 @@ metadata:
 spec:
   interval: 1m0s
   ref:
-    branch: 2-demo
+    branch: 2-demo--
   url: https://github.com/ajayro45/bb-app-source
