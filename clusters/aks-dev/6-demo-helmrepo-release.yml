@@ -15,7 +15,7 @@ spec:
   interval: 10s
   targetNamespace: 6-demo
   values:
-    images:
+    image:
       repository: ajayro45/blockbuster:5.0.0
     labels:
       app:
