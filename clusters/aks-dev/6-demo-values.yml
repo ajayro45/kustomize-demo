@@ -12,5 +12,8 @@ labels:
     name: block-buster
     version: 7.6.0
     env: dev
-images:
+image:
  repository: ajayro45/blockbuster:5.0.0
+ pullPolicy: Always
+  # Overrides the image tag whose default is the chart appVersion.
+ tag: ""
