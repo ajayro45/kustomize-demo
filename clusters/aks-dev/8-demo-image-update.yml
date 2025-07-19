@@ -20,5 +20,5 @@ spec:
     kind: GitRepository
     name: 8-demo-source-git-bb
   update:
-    path: ./manifest
+    path: ./manifests
     strategy: Setters
