@@ -13,4 +13,4 @@ labels:
     version: 7.6.0
     env: dev
 images:
- repository: ajayro45/blockbuster:5.0.0 
+ repository: ajayro45/blockbuster:5.0.0
