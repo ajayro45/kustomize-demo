@@ -21,4 +21,4 @@ spec:
     name: demo-app
   update:
     path: ./manifests
-    strategy: Setters
+    strategy: Update
