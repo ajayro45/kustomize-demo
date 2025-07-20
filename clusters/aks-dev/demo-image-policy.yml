@@ -8,8 +8,5 @@ spec:
   imageRepositoryRef:
     name: demo-image
   policy:
-    alphabetical:
-      order: asc  # This will pick the lexicographically latest SHA
-  filterTags:
-    # Match exactly 40-character hexadecimal strings (full Git SHA)
-    pattern: '^[a-f0-9]{40}$'  
+    semver:
+      range: 1.0.x
