@@ -8,4 +8,6 @@ spec:
   interval: 1m0s
   ref:
     branch: main
-  url: https://github.com/ajayro45/demo-app
+  secretRef:
+    name: demo-app-auth
+  url: ssh://git@github.com/ajayro45/demo-app.git

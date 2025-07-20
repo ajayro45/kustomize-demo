@@ -1,0 +1,9 @@
+---
+apiVersion: image.toolkit.fluxcd.io/v1beta2
+kind: ImageRepository
+metadata:
+  name: demo-image
+  namespace: flux-system
+spec:
+  image: docker.io/ajayro45/demo
+  interval: 10s
