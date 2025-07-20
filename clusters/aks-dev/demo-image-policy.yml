@@ -9,4 +9,5 @@ spec:
     name: demo-image
   policy:
     semver:
-      range: 1.0.x
+      range: 1.0.xi
+#added new semver
