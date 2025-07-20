@@ -7,6 +7,6 @@ metadata:
 spec:
   imageRepositoryRef:
     name: demo-image
-  policy:
-    alphabetical:
-      order: desc
+ policy:
+  regex:
+    pattern: '^.*$'  
