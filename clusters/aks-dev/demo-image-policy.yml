@@ -8,5 +8,5 @@ spec:
   imageRepositoryRef:
     name: demo-image
   policy:
-    semver:
-      range: '*'
+    alphabetical:
+      order: desc
