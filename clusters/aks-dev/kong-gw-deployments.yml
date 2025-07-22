@@ -11,4 +11,4 @@ spec:
   sourceRef:
     kind: GitRepository
     name: kong-gw
-  targetNamespace: kong-system
+  targetNamespace: kong
